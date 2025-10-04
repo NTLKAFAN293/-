@@ -11,7 +11,7 @@ const client = new Client({
     ]
 });
 
-const ALLOWED_GUILD_ID = '1375876425416052799';
+const ALLOWED_GUILD_ID = '1423368485626707991';
 
 const db = new Database('bot.db');
 
