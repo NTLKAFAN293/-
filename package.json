@@ -1,16 +1,17 @@
+
 {
   "name": "discord-embed-bot",
   "version": "1.0.0",
-  "description": "بوت لإرسال ايمبد فيه كلام مفرّغ إلى روم معين",
+  "description": "Discord bot with embed functionality",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "NTLKAFAN",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.11.0",
-    "dotenv": "^16.3.1"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2",
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18.0.0"
